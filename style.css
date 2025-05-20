@@ -1,0 +1,65 @@
+#title{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 140%;
+}
+#comment{
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background: linear-gradient(-68deg, #BBFBFF, #8DD8FF, #4E71FF, #5409DA);
+    background-size: 400% 400%;
+    animation: gradientAnimation 20s ease infinite;
+}
+
+.SignIn-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignIn-box {
+    background: rgba(38, 39, 44, 0.341);
+    padding: 40px;
+    padding-bottom: 60px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3 ease;
+}
+
+.SignIn-box:hover {
+    transform: scale(1.01);
+    background: rgba(38, 39, 44, 0.467);
+}
+#title{
+    color: white;
+}
+
+#comment {
+    color: rgba(255, 255, 255, 0.815);
+}
+
+#username, #password{
+    color: white;
+}
+/* KEYFRAMES ANIMATIONS */
+
+@keyframes gradientAnimation {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
