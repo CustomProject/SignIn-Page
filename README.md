@@ -20,8 +20,5 @@ If you have any questions or suggestions, feel free to contact me!
 2. Extract the files to your local directory.
 3. Open the `index.html` file in your browser.
 
-## Credit
-Template design by **Custom Projects (custom)**.<br>Images used in this project are created using **Bing AI**.
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
